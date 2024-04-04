@@ -1,0 +1,133 @@
+
+body {background-color: #24252A;}
+        h1   {color: rgb(20, 161, 102);}
+        p    {color: red;}
+
+        * {
+            box-sizing: border-box;
+          }
+          
+          .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+          }
+          
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+
+#image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.topnav {
+    display: block;
+    margin-left: 35%;
+    margin-right: 20%;
+    font-size: x-large;
+    
+}
+
+a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: sans-serif;
+
+}
+a:hover{
+    color: rgb(20, 161, 102);
+    transition: .3s;
+}
+
+
+#jamestext {
+    display: block;
+    padding-left: 4%;
+    padding-right: 1%;
+}
+
+#rhandytext {
+    display: block;
+    padding-left: 10%;
+}
+
+#zakk {
+    display: block;
+    padding-left: 10%;
+}
+
+#fiyat {
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+
+#ozellikler1 {
+    color: aliceblue;
+    display: block;
+    padding-left: 10%;
+}
+
+#rockmarketabout {
+    padding-right: 40%;
+    padding-left: 40%;
+    padding-top: 3%;
+}
+
+#aciklama {
+    padding-inline-start: 30%;
+}
+
+iframe {
+    height: 390px;
+    width: 1500px;
+    padding-left: 14%;
+}
+
+
+#aboutus {
+    padding-top: 3%;
+    padding-left: 1%;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 60%;
+    margin: 10rem auto;
+}
+
+.section img{
+    height: 350px;
+}
+
+.section h1{
+    margin: 0;
+    color: yellow;
+}
+
+.section p{
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: white;
+}
+
+#jacksonguitar {
+    max-width: 30%;
+    height: auto; 
+}
+
+
+
+
